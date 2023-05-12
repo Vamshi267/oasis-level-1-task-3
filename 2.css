@@ -1,0 +1,52 @@
+*{
+    padding:0;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    width:50px;
+    height: 40vh;
+    display:grid;
+    place-items:center;
+    background-image: url(thermometer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#convert {
+    background-color: #bba768;
+  }
+  #convert:hover {
+    background-color: #bcc768;
+  }
+  h1 {
+    font-family: sans-serif;
+    color: yellow;
+    font-size: 50px;
+  }
+  input {
+    display: block;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #f4a55a;
+    font-family: cursive, sans-serif;
+  }
+  ::-webkit-input-placeholder {
+     color: #ccc;
+  }
+  :-moz-placeholder { 
+     color: #ccc;  
+  }
+  ::-moz-placeholder {  
+     color: #ccc;  
+  }
+  :-ms-input-placeholder {  
+     color: #ccc;  
+  }
+  button {
+    padding: 10px;
+    font-size: 1.2em;
+    color: #545454;
+  }
